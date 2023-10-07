@@ -1,0 +1,33 @@
+
+  /* this allows to have the border taking the whole page of top container */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.top-container {
+    color: #fff;
+    background-color: #1F2937;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.grid-2x2 {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link-two {
+    margin: 0 20px;
+}
