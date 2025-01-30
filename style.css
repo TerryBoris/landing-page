@@ -59,7 +59,6 @@ a{
     display: inline-flex; 
     align-items: center; 
     justify-content: center; 
-    border: dashed red;
 }
 
 .hero {
@@ -70,7 +69,6 @@ a{
     gap: 40px;
     justify-content: space-evenly;
     align-items: stretch; 
-    border: dashed red;
 }
 
 .hero-text{
@@ -80,7 +78,6 @@ a{
     justify-content: center;
     align-content: center;
     width: 40%;
-    border: dashed red;
 }
 
 .hero-image {
@@ -90,14 +87,15 @@ a{
     height: auto;
 }
 .button {
+    text-align: left;
     border: none;
     border-radius: 1em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: inline-block;
     font-size: 1em;
-    padding: 1em 1em;
-    width: auto;
-  }
+    margin-left: -5px;
+    padding: 10px; 
+    width: auto; 
+}
 
   .cta-button {
     background-color: #3882F6;
@@ -127,7 +125,7 @@ a{
     justify-content: flex-start; /* Aligns content to the top */
     height: 125%;
     border: dashed red;
-    background-color: rgb(249, 239, 226);
+    background-color: #F9FAF8;
 }
 
 .side{
@@ -144,7 +142,6 @@ a{
 
 .cards{
     display: flex;
-    border: dashed red;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -152,10 +149,10 @@ a{
 }
 
 .icon{
-    border: #3882F6 solid;
+    border: solid #1F2937;
     border-radius: 10%;
+    box-shadow: 2px 2px 2px #1F2937;
     mix-blend-mode: multiply;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,9 +164,10 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20%;
-    border: dashed red;
+    justify-items: center;
+    justify-content: center;
     text-align: center;
+    width: 200px;
 }
 
 .main-three{
@@ -185,13 +183,11 @@ a{
     font-style: italic;
     color: #1F2937;
     text-align: left;
-    border: dashed red
 }
 
 .author{
     font-size: 18px;
     text-align: right;
-    border: dashed red
 }
 
 .main-four{
@@ -206,5 +202,4 @@ a{
     color: #E5E7EB;
     font-size: 18px;
     text-align: right;
-    border: dashed red
 }
